@@ -1,0 +1,75 @@
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# Environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+*.local
+
+# Build/package artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Data and large binary artifacts
+data/
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.mat
+*.csv.tmp
+
+# Models, checkpoints, and training runs
+models/*
+runs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Generated reports, logs, and TensorBoard artifacts
+reports/tables/*
+reports/tensorboard/*
+reports/figures/*
+*.log
+events.out.tfevents.*
+
+# Local notebooks/temporary exports
+*.tmp
+*.bak
+*.swp
+~$*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep empty project structure
+!data/.gitkeep
+!data/raw/
+!data/raw/.gitkeep
+!data/processed/
+!data/processed/.gitkeep
+!models/.gitkeep
+!reports/tables/
+!reports/tables/.gitkeep
+!reports/tensorboard/
+!reports/tensorboard/.gitkeep
+!reports/figures/
+!reports/figures/.gitkeep
