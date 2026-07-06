@@ -1,0 +1,5 @@
+model,split,n,true_negative,false_positive,false_negative,true_positive,n_true_positive_samples,n_predicted_positive_samples,accuracy,precision,recall,f1
+mean spectrum PCA+SVM,val,288,158,34,23,73,96,107,0.8021,0.6822,0.7604,0.7192
+mean spectrum PCA+SVM,test,288,156,36,27,69,96,105,0.7812,0.6571,0.7188,0.6866
+flattened crop PCA-pixels+SVM,val,288,153,39,23,73,96,112,0.7847,0.6518,0.7604,0.7019
+flattened crop PCA-pixels+SVM,test,288,143,49,26,70,96,119,0.7396,0.5882,0.7292,0.6512

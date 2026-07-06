@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+       sound       0.96      0.99      0.98       192
+     damaged       0.99      0.92      0.95        96
+
+    accuracy                           0.97       288
+   macro avg       0.97      0.96      0.96       288
+weighted avg       0.97      0.97      0.97       288

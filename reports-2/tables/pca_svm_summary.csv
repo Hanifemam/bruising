@@ -1,0 +1,4 @@
+model,kernel,components,split,n,true_negative,false_positive,false_negative,true_positive,n_true_positive_samples,n_predicted_positive_samples,accuracy,precision,recall,f1
+flattened crop PCA-pixels+SVM,rbf,10,train,2256,1494,10,19,733,752,743,0.9871,0.9865,0.9747,0.9806
+flattened crop PCA-pixels+SVM,rbf,10,val,288,191,1,8,88,96,89,0.9688,0.9888,0.9167,0.9514
+flattened crop PCA-pixels+SVM,rbf,10,test,288,188,4,13,83,96,87,0.941,0.954,0.8646,0.9071

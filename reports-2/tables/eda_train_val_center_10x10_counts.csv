@@ -1,0 +1,7 @@
+split,timepoint,bruised,sound
+train,t0,0,752
+train,t1,376,376
+train,t3,376,376
+val,t0,0,96
+val,t1,48,48
+val,t3,48,48

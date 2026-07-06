@@ -1,0 +1,17 @@
+file,microtec_id,timepoint,dataset,y_true_label,y_pred_label,y_true,y_pred
+MICROTEC_29203_processed_boxes.h5,29203,t3,bruised3,damaged,sound,1,0
+MICROTEC_28008_processed_boxes.h5,28008,t1,bruised1,damaged,sound,1,0
+MICROTEC_28008_processed_boxes.h5,28008,t1,bruised4,damaged,sound,1,0
+MICROTEC_28008_processed_boxes.h5,28008,t3,bruised2,damaged,sound,1,0
+MICROTEC_28506_processed_boxes.h5,28506,t0,sound1,sound,damaged,0,1
+MICROTEC_28506_processed_boxes.h5,28506,t1,sound1,sound,damaged,0,1
+MICROTEC_28506_processed_boxes.h5,28506,t3,sound1,sound,damaged,0,1
+MICROTEC_29302_processed_boxes.h5,29302,t1,bruised1,damaged,sound,1,0
+MICROTEC_29302_processed_boxes.h5,29302,t3,bruised1,damaged,sound,1,0
+MICROTEC_28109_processed_boxes.h5,28109,t0,bruised4,sound,damaged,0,1
+MICROTEC_29300_processed_boxes.h5,29300,t1,bruised2,damaged,sound,1,0
+MICROTEC_29300_processed_boxes.h5,29300,t1,bruised3,damaged,sound,1,0
+MICROTEC_29300_processed_boxes.h5,29300,t3,bruised2,damaged,sound,1,0
+MICROTEC_29300_processed_boxes.h5,29300,t3,bruised3,damaged,sound,1,0
+MICROTEC_29003_processed_boxes.h5,29003,t1,bruised1,damaged,sound,1,0
+MICROTEC_28402_processed_boxes.h5,28402,t0,bruised1,sound,damaged,0,1
