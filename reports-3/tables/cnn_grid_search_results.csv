@@ -1,0 +1,5 @@
+trial,best_epoch,best_val_loss,best_val_acc,best_model_path,lr,dropout,weight_decay,conv_channels
+trial01_lr0p001_dropout0p2_ch16-32,60,0.2631022821490963,0.9244791666666666,/srv/sysops/HIPPA/hanif/bruising_detection/models/cnn_seed73_gridsearch/trial01_lr0p001_dropout0p2_ch16-32_best_model.pt,0.001,0.2,0.0001,"(16, 32)"
+trial02_lr0p001_dropout0p35_ch16-32,38,0.372058833638827,0.8828125,/srv/sysops/HIPPA/hanif/bruising_detection/models/cnn_seed73_gridsearch/trial02_lr0p001_dropout0p35_ch16-32_best_model.pt,0.001,0.35,0.0001,"(16, 32)"
+trial03_lr0p0003_dropout0p2_ch16-32,55,0.47057912560800713,0.8411458333333334,/srv/sysops/HIPPA/hanif/bruising_detection/models/cnn_seed73_gridsearch/trial03_lr0p0003_dropout0p2_ch16-32_best_model.pt,0.0003,0.2,0.0001,"(16, 32)"
+trial04_lr0p0003_dropout0p35_ch16-32,40,0.5181414919594923,0.8307291666666666,/srv/sysops/HIPPA/hanif/bruising_detection/models/cnn_seed73_gridsearch/trial04_lr0p0003_dropout0p35_ch16-32_best_model.pt,0.0003,0.35,0.0001,"(16, 32)"

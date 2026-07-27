@@ -15,7 +15,7 @@ SPATIAL_CROP_SIZE = 0  # 0 or None means no cropping.
 
 @dataclass
 class CNNConfig:
-    epochs: int = 60
+    epochs: int = 100
     batch_size: int = 32
     log_dir: str = str(PROJECT_ROOT / "reports" / "tensorboard")
     log_graph: bool = True

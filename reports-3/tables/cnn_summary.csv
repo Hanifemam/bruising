@@ -1,0 +1,4 @@
+split,n,true_negative,false_positive,false_negative,true_positive,n_true_positive_samples,n_predicted_positive_samples,accuracy,precision,recall,f1,trial,split_seed
+train,3008,1828,52,95,1033,1128,1085,0.9511,0.9521,0.9158,0.9336,trial01_lr0p001_dropout0p2_ch16-32,73
+val,384,235,5,24,120,144,125,0.9245,0.96,0.8333,0.8922,trial01_lr0p001_dropout0p2_ch16-32,73
+test,384,237,3,6,138,144,141,0.9766,0.9787,0.9583,0.9684,trial01_lr0p001_dropout0p2_ch16-32,73

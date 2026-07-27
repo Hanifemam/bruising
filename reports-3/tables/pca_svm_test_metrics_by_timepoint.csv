@@ -1,0 +1,5 @@
+group,n,correct,incorrect,true_negative,false_positive,false_negative,true_positive,n_true_positive_samples,n_predicted_positive_samples,accuracy,precision,recall,f1
+t0,96,91,5,91,5,0,0,0,5,0.9479,0.0,0.0,0.0
+t1,96,91,5,47,1,4,44,48,45,0.9479,0.9778,0.9167,0.9462
+t2,96,90,6,47,1,5,43,48,44,0.9375,0.9773,0.8958,0.9348
+t3,96,93,3,48,0,3,45,48,45,0.9688,1.0,0.9375,0.9677

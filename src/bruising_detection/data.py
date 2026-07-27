@@ -16,14 +16,22 @@ def seed_everything(seed=RANDOM_STATE):
     torch.cuda.manual_seed_all(seed)
 
 
-# Exact same split method as pca_svm_processed_box_split.ipynb.
+def split_label(path):
+    return path.name.split("_")[1][:3]
+
+
 def split_files(paths, test_size=0.2, val_size=0.2, random_state=40):
-    train_val, test = train_test_split(sorted(paths), test_size=test_size, random_state=random_state, shuffle=True)
+    paths = sorted(paths)
+    labels = [split_label(path) for path in paths]
+    train_val, test = train_test_split(
+        paths, test_size=test_size, random_state=random_state, shuffle=True, stratify=labels
+    )
     val_ratio = val_size / (1 - test_size)
-    train, val = train_test_split(train_val, test_size=val_ratio, random_state=random_state, shuffle=True)
+    train, val = train_test_split(
+        train_val, test_size=val_ratio, random_state=random_state, shuffle=True,
+        stratify=[split_label(path) for path in train_val]
+    )
     return {"train": train, "val": val, "test": test}
-
-
 
 
 def materialize_split_data(splits, out_dir):

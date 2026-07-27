@@ -1,0 +1,5 @@
+split,n_files,n_samples,n_sound,n_bruised,file_ratio,sample_ratio
+train,94,3008,1880,1128,0.7966,0.7966
+val,12,384,240,144,0.1017,0.1017
+test,12,384,240,144,0.1017,0.1017
+total,118,3776,2360,1416,1.0,1.0
