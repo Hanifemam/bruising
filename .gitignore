@@ -23,8 +23,50 @@ dist/
 *.egg-info/
 .eggs/
 
-# Data and large binary artifacts
+# Project data, figures, reports, and results
 data/
+data_*/
+data-*/
+dataset/
+datasets/
+figure/
+figure*/
+figures/
+figures*/
+plot/
+plots/
+report/
+report*/
+reports/
+reports*/
+result/
+results/
+results*/
+output/
+outputs/
+artifact/
+artifacts/
+table/
+tables/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.jsonl
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.svg
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.tex
 *.h5
 *.hdf5
 *.npy
@@ -61,15 +103,4 @@ Thumbs.db
 .idea/
 
 # Keep empty project structure
-!data/.gitkeep
-!data/raw/
-!data/raw/.gitkeep
-!data/processed/
-!data/processed/.gitkeep
 !models/.gitkeep
-!reports/tables/
-!reports/tables/.gitkeep
-!reports/tensorboard/
-!reports/tensorboard/.gitkeep
-!reports/figures/
-!reports/figures/.gitkeep
