@@ -1,2 +1,0 @@
-group,n,correct,incorrect,true_negative,false_positive,false_negative,true_positive,n_true_positive_samples,n_predicted_positive_samples,accuracy,precision,recall,f1
-overall,384,365,19,233,7,12,132,144,139,0.9505,0.9496,0.9167,0.9329

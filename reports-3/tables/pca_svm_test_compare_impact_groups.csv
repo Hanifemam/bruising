@@ -1,4 +1,0 @@
-group,n,correct,incorrect,true_negative,false_positive,false_negative,true_positive,n_true_positive_samples,n_predicted_positive_samples,accuracy,precision,recall,f1
-low impact,64,63,1,40,0,1,23,24,23,0.9844,1.0,0.9583,0.9787
-medium impact,128,114,14,76,4,10,38,48,42,0.8906,0.9048,0.7917,0.8444
-high impact,192,188,4,117,3,1,71,72,74,0.9792,0.9595,0.9861,0.9726
