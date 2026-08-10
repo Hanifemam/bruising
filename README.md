@@ -12,6 +12,8 @@ This project contains code and documentation for bruising detection experiments 
 - `tests/` - test code.
 - `.github/` - GitHub workflow and repository configuration.
 
+## Data
+Data can be found in http:
 ## Funding
 
 The research leading to these results has received funding from the European Regional Development Fund, Operational Programme Investment for jobs and growth EFRE-FESR 2021-2027 under Project number EFRE1044 (HIPPA, "Hyperspectral imaging for the detection of physiologically and parasitically induced damages on apple fruit at harvest and during postharvest").
