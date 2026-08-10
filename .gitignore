@@ -90,10 +90,11 @@ reports/figures/*
 *.log
 events.out.tfevents.*
 figures*
-*/figures
+figures
 reports-3/
 reports-2/
 # Local notebooks/temporary exports
+/eda/*
 *.tmp
 *.bak
 *.swp
