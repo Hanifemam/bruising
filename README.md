@@ -1,17 +1,17 @@
-# Bruising Detection Project
+# HIPPA Bruising Detection
 
-Project structure prepared for sharing the bruising detection work on GitHub.
+Hyperspectral imaging workflow for detecting physiologically and parasitically induced damage on apple fruit at harvest and during postharvest.
 
-## Folders
+This project contains code and documentation for bruising detection experiments developed as part of HIPPA, "Hyperspectral imaging for the detection of physiologically and parasitically induced damages on apple fruit at harvest and during postharvest".
 
-- `data/raw/` - original local datasets; keep large files out of git.
-- `data/processed/` - processed datasets and feature files; keep large files out of git.
-- `notebooks/` - cleaned experiment notebooks.
-- `src/` - source code can be added here later.
-- `models/` - trained model files; keep checkpoints out of git unless using Git LFS.
-- `reports/` - result tables, logs, and analysis outputs.
-- `reports/figures/` - generated figures for reports and papers.
-- `docs/` - dataset notes, methods, and sharing documentation.
-- `tests/` - tests can be added here later.
+## Project Structure
 
-Large datasets, model checkpoints, generated logs, and temporary files are ignored by `.gitignore`.
+- `src/bruising_detection/` - data loading, model training, PCA-SVM experiments, visualization, and configuration code.
+- `eda/` - exploratory analysis notebooks.
+- `docs/` - project notes, methods, and sharing documentation.
+- `tests/` - test code.
+- `.github/` - GitHub workflow and repository configuration.
+
+## Funding
+
+The research leading to these results has received funding from the European Regional Development Fund, Operational Programme Investment for jobs and growth EFRE-FESR 2021-2027 under Project number EFRE1044 (HIPPA, "Hyperspectral imaging for the detection of physiologically and parasitically induced damages on apple fruit at harvest and during postharvest").
